@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #eeeeee;
+	background-image: url('ankit1.jpg');
+	background-size: 1700px 750px;
+	background-repeat: no-repeat;
+}
+.tm-container{
+	max-width: 1200px;
+	margin :0 auto;
+}
+.tm-header{
+	background:#778899;
+	
+}
+.asd{
+	text-align: center;
+	font-size: 200%;
+}
+.tm-header::after{
+	content: "";
+	clear: both;
+	display:block;
+	visibility: none;
+}
+
+.tm-logo{
+	float: left;
+}
+.tm-nav{
+
+}
+.tm-nav ul li{
+	display: inline;
+	float:right;
+
+}
+.tm-nav ul li a{
+	padding: 20px 40px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 60px;
+	font-size: 150%;
+}
+.tm-nav ul li a:hover{
+	color:#3e99ff;
+}
+.tm-footer{
+	padding 20px;
+	text-align:center;
+	margin:20px;
+	
+	
+}
